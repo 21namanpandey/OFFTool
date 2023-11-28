@@ -54,9 +54,19 @@ function App() {
 
         </Route>
 
-        <Route path="/dashboard/todo" element={<TodoBlock/>}/>
+        <Route path="/dashboard/todo" 
+        element={
+        <PrivateRoute isLoggedIn={isLoggedIn}>
+        <TodoBlock/>
+        </PrivateRoute>
+        }/>
 
-        <Route path="/dashboard/expense" element={<ExpenseBlock/>}/>
+        <Route path="/dashboard/expense" 
+        element={
+        <PrivateRoute isLoggedIn={isLoggedIn}>
+        <ExpenseBlock/>
+        </PrivateRoute>
+        }/>
 
 
       </Routes>
