@@ -27,7 +27,6 @@ Ready to boost your office efficiency? Follow these simple steps to get started 
 OFFTool is built using the following technologies:
 
 - **React.js:** A powerful frontend library for creating intuitive user interfaces.
-- *[Other technologies used in your project...]*
 
 ## How to Contribute
 
