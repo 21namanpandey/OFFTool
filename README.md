@@ -4,6 +4,7 @@ Welcome to OFFTool – your go-to web-based office management tool designed to s
 
 ![OFFTool Logo](src/assets/offtool_old.png)
 
+
 ## Features
 
 OFFTool is here to make your work life easier. Here's what it offers:
@@ -26,7 +27,6 @@ Ready to boost your office efficiency? Follow these simple steps to get started 
 OFFTool is built using the following technologies:
 
 - **React.js:** A powerful frontend library for creating intuitive user interfaces.
-- *[Other technologies used in your project...]*
 
 ## How to Contribute
 
