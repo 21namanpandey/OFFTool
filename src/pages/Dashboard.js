@@ -31,12 +31,12 @@ const Dashboard = () => {
                     </Link>
                 </div>
 
-                <div className=' '>
-                    <Link to={"/dashboard/scheduler"}>
-                        <img src={scheduler} alt="" className=' w-[100px]  h-[100px] ' />
-                        <h1 className=' text-orange-600 text-2xl ml-0 font-semibold   mt-2  '>Scheduler</h1>
-                    </Link>
-                </div>
+                // <div className=' '>
+                //     <Link to={"/dashboard/scheduler"}>
+                //         <img src={scheduler} alt="" className=' w-[100px]  h-[100px] ' />
+                //         <h1 className=' text-orange-600 text-2xl ml-0 font-semibold   mt-2  '>Scheduler</h1>
+                //     </Link>
+                // </div>
 
                 
 
