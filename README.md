@@ -1,6 +1,6 @@
 # OFFTool
 
-Welcome to OFFTool – your go-to web-based office management tool designed to simplify your work life. OFFTool is packed with features to streamline various office tasks, including to-do lists, expense management, and meeting scheduling.
+Welcome to OFFTool – your go-to web-based office management tool designed to simplify your work life. OFFTool is packed with features to streamline various office tasks, including to-do lists, expense management, meeting scheduling and many more.
 
 ![OFFTool Logo](src/assets/offtool_old.png)
 
