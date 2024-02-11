@@ -3,16 +3,13 @@ import toast from 'react-hot-toast';
 import { AiOutlineEyeInvisible, AiOutlineEye } from "react-icons/ai";
 import { Link , useNavigate } from 'react-router-dom';
 
-
 const LoginForm = ({setIsLoggedIn}) => {
 
     const navigate = useNavigate();
     
-    
     const [formData , setFormData] = useState({
         email:"" , password:""
     })
-
     const[showPassword,setShowPassword] = useState(false);
 
     function changeHandler(event) {
@@ -87,7 +84,7 @@ return (
 
         </label>
 
-        <button className="bg-yellow-50 py-[8px] px-[12px] rounded-[8px] mt-6 font-medium text-richblack-900">
+        <button className="bg-yellow-50 py-[8px]  font-medium text-richblack-900 px-[12px] rounded-[8px] mt-6">
             Sign In
         </button>
     </form>
