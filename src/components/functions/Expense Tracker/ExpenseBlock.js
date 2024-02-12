@@ -12,18 +12,15 @@ import './expense.css'
 const ExpenseBlock = () => {
     return (
         <div className="  ">
-
             <GlobalProvider>
                 <Header />
                 <div className="container">
                     <Balance />
                     <IncomeExpenses />
-                    
                     <AddTransaction />
                     <TransactionList />
                 </div>
             </GlobalProvider>
-
         </div>
     )
 }
