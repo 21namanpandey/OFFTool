@@ -10,11 +10,7 @@ import expense from '../assets/expense.png'
 const Dashboard = () => {
     return (
         <div className='bg-richblack-900'>
-
             <div className="flex  relative mx-auto  w-11/12  mt-5 gap-10  text-white ">
-
-                
-
                 <div className=' flex flex-col  '>
                     {/* <AddTodo/> */}
                     {/* <Todo/> */}
@@ -23,20 +19,13 @@ const Dashboard = () => {
                         <h1 className=' text-orange-700   ml-1  text-2xl font-semibold   mt-2  '>TODO</h1>
                     </Link>
                 </div>
-
                 <div className=' text-center'>
                     <Link to={"/dashboard/expense"}>
                         <img src={expense} alt="" className=' w-[100px]  h-[100px] ' />
                         <h1 className=' text-orange-600  text-2xl  ml-0 font-semibold w-[100px] mt-2  '>Expense Tracker</h1>
                     </Link>
                 </div>
-
-                
-
-                
-
             </div>
-
         </div>
     )
 }
