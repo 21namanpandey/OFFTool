@@ -38,4 +38,5 @@ We love contributions! If you want to contribute to OFFTool, follow these steps:
 4. **Push to the branch:** `git push origin feature/your-feature-name`
 5. **Submit a pull request.**
 
-
+## License
+OFFTool is licensed under the MIT License. See LICENSE for details.
